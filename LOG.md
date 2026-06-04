@@ -14,15 +14,25 @@
 **Залишилось — дії від Eduard (НЕ ресерч), див. [SETUP.md](SETUP.md):**
 - [ ] ⚠️ Перемкнути Node v25 → v20 LTS (nvm) — критично для Expo
 - [ ] Expo Go на iPhone + Expo Orbit (`brew install --cask expo-orbit`)
-- [ ] Supabase проект → ключі в .env.local (schema готова в starter/STARTER.md)
+- [ ] 🎯 ЗАВТРА: Supabase проект → розгорнути БЕКАП-БАЗУ (starter/BACKUP-team-energy-pulse.md § Schema) → ключі в .env.local
 - [ ] Claude API key (console.anthropic.com)
-- [x] Watchman ✅ (встановлено) · Callstack skills ✅ · starter kit ✅ · Figma ✅
+- [x] Watchman ✅ · Callstack skills ✅ · starter kit ✅ · Figma ✅ · BACKUP-скелет ✅
 
 **На буткемпі:** завдання → `research/INDEX.md` → `/office-hours` → старт по SETUP.md §"день X".
 
 ---
 
 ## Лог
+
+### 2026-06-04 — Бекап-скелет Team Energy Pulse (розгортаємо завтра)
+
+**Що:** повний готовий скелет найімовірнішого продукту — щоб не витратити ні хвилини в суботу.
+- `starter/BACKUP-team-energy-pulse.md` — повний код (schema+seed, usePulse realtime хук, vote-екран, live-дашборд зі score-кільцем, Social Proof Moment) + prep-чеклист + гайд адаптації
+- **Завтра (prep):** розгорнути Supabase з цією схемою → БД стоїть готова
+- **Адаптивність:** патерн = анонімний realtime-збір → live-агрегат. Підходить під pulse/poll/feedback/check-in/Q&A/настрій. Якщо тема схожа → copy-paste, економить ~40хв. Якщо ні → скидається за 2хв.
+- Вплетено в SETUP (prep §3), PLAYBOOK (SCAFFOLD), INDEX (фаза 1)
+
+---
 
 ### 2026-06-04 — Аналіз лекції організатора "Енергія менеджера"
 

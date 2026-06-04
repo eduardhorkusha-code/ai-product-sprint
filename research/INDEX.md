@@ -26,6 +26,7 @@ Social Proof Moment. Кандидат №1 — **Team Pulse** (realtime emoji, �
 
 | Файл | Що беру |
 |------|---------|
+| [../starter/BACKUP-team-energy-pulse.md](../starter/BACKUP-team-energy-pulse.md) | 🎯 ГОТОВИЙ СКЕЛЕТ — якщо тема схожа, клацаєш copy-paste. БД розгорнута завтра |
 | [code/starter-templates.md](code/starter-templates.md) | Клон toyamarodrigo + NativeWind setup |
 | [../starter/STARTER.md](../starter/STARTER.md) | Supabase клієнт, schema SQL, app CLAUDE.md, metro fix |
 | [../SETUP.md](../SETUP.md) | Порядок старту (§"день X") |

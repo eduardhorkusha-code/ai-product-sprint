@@ -50,11 +50,15 @@ brew install --cask expo-orbit
 ```
 Запускає simulator в 1 клік з menu bar.
 
-### 3. Supabase проект
+### 3. Supabase проект — РОЗГОРНИ БЕКАП-БАЗУ ЗАВТРА (prep)
 1. app.supabase.com → New Project (запам'ятай DB password)
-2. Project Settings → API → скопіюй `URL` і `anon key`
-3. SQL Editor → встав schema з [starter/STARTER.md](starter/STARTER.md) §3
-4. Поклади ключі в `.env.local` застосунку (шаблон: [starter/.env.example](starter/.env.example))
+2. Project Settings → API → скопіюй `URL` і `anon key` → у `.env.local`
+   (шаблон: [starter/.env.example](starter/.env.example))
+3. **SQL Editor → встав схему з [starter/BACKUP-team-energy-pulse.md](starter/BACKUP-team-energy-pulse.md) § Schema → Run.**
+   Це наш найімовірніший продукт (Team Energy Pulse) + seed-дані. БД стоятиме готова —
+   у суботу нуль витрат часу. Якщо тема інша — схема скидається за 2 хв.
+4. Перевір realtime: Database → Replication → `pulse_votes` у `supabase_realtime`.
+5. (Альтернатива) універсальна схема habits/moods/wins — у [starter/STARTER.md](starter/STARTER.md) §3.
 
 ### 4. API ключі
 - **Claude:** console.anthropic.com → API Keys → новий ключ (для AI-фічі)

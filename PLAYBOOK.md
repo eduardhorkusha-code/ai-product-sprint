@@ -24,8 +24,11 @@
 - `nvm use 20` → клон toyamarodrigo → bun install → expo start.
 - Expo Go на телефоні: апп відкривається (порожній, але запущено).
 - Скопіювати зі `starter/STARTER.md`: supabase.ts, metro fix, app CLAUDE.md, .env.local.
-- Supabase: встав schema в SQL Editor.
-- ✅ Checkpoint: порожній апп з навігацією + БД готова.
+- **🎯 ЯКЩО ТЕМА СХОЖА** (pulse/poll/feedback/check-in/енергія/настрій) →
+  бери `starter/BACKUP-team-energy-pulse.md`: БД вже розгорнута (завтра), код copy-paste.
+  Це економить ~40 хв — одразу маєш realtime-дашборд що працює. Адаптуєш options під тему.
+- Supabase: схема вже стоїть з prep (інакше встав зараз).
+- ✅ Checkpoint: апп з навігацією + БД готова (або готовий Pulse-скелет).
 
 ### 🟦 16:00–17:30 — BUILD CORE (90 хв) — найбільший блок
 - Тільки головний flow end-to-end. Без анімацій поки.
