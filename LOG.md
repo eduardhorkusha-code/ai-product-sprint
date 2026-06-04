@@ -22,6 +22,22 @@
 
 ## Лог
 
+### 2026-06-04 — Агенти у форматі ai-team: моделі, Voice, навчання
+
+**Що зроблено (за зразком github.com/eduardhorkusha-code/ai-team):**
+- Всі 6 агентів отримали YAML frontmatter: name, codename, codename_reason, model, model_reason, color, tools
+- Моделі обрані під роль: Opus (Product Brain, Demo Director — judgment вирішує день), Sonnet (Builder, Design Eye, AI Engineer, QA — темп/виконання)
+- Voice-секція кожному (характер супергероя: Fury командує, Stark саркастичний, Mysterio театральний, Vision аналітичний, Spider-Man параноїк, Da Vinci майстер ока)
+- Experience Log кожному — читають на початку задачі, дописують урок у кінці
+- `.claude/agents/memory/*-experience.md` — 6 seed-файлів з research-уроками (старт зі знанням, не з нуля)
+- `GSTACK.md` — операційна система команди: фаза→скіл→хто, sprint flow, ETHOS
+- `agents/README.md` — install guide + таблиця моделей
+- gstack як постійний референс: кожен агент має секцію "gstack — твоя операційна система"
+
+**Логіка:** агенти тепер вчаться на уроках (як ai-team), систематизують роботу через gstack, обрали моделі під свою силу.
+
+---
+
 ### 2026-06-04 — README rewrite + STATUS + команда 3→6 агентів
 
 **Що зроблено:**
