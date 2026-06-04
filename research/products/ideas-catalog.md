@@ -1,10 +1,26 @@
 # Product Ideas Catalog — Bootcamp Ready
 **Оновлено:** 2026-06-04  
-**Критерій:** будується за 6-8 годин одним розробником + AI, вражає нетехнічну аудиторію
+**⏱️ РЕАЛЬНІСТЬ: 4 ГОДИНИ.** Core feature має вміститись у ~90 хв (решта: decide/scaffold/polish/pitch).
 
 ---
 
-## Матриця ідей
+## 🎯 4h-READY — бери одне з цих (core ≤90хв)
+
+| Ранг | Ідея | Wow | Чому влазить у 4h | Social Proof Moment? |
+|------|------|-----|-------------------|----------------------|
+| 🥇 | **Team Pulse** — анонімний emoji mood | 9 | Без auth, 1 екран, realtime = весь wow. ~75хв core. | ✅ ВБУДОВАНИЙ (аудиторія шле emoji live) |
+| 🥈 | **Win Journal** — щоденник + share card | 9 | Text input + share screenshot. Без backend. ~60хв. | 🟡 share card вірусний |
+| 🥉 | **Daily Win** — 3 задачі + confetti | 8 | CRUD + confetti при all-done. ~70хв. | 🟡 простота |
+
+**Default під 4h:** Team Pulse — Social Proof Moment вбудований, realtime = wow,
+анонімність (без auth економить годину), аудиторія голосує = аудиторія в продукті.
+
+⚠️ **НЕ під 4h** (потребують >90хв core): Habit Stack (streak grid), Meeting Digest
+(voice→text+AI), Sprint Board, Skill Pulse. Бери тільки якщо обрали свідомо і ріжемо решту.
+
+---
+
+## Повна матриця ідей (час = для 6-8h, ділити навпіл під 4h)
 
 | # | Ідея | Wow-фактор /10 | Час збірки | Аудиторія | Унікальний кут |
 |---|------|---------------|------------|-----------|----------------|

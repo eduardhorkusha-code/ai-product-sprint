@@ -4,7 +4,11 @@
 
 ---
 
-## Погодинний план (8h intensive)
+> ⚠️ **ЗАСТАРІЛО — це 8-годинна версія.** Буткемп = 4 години.
+> Актуальний план: [PLAYBOOK.md](../../PLAYBOOK.md). Цей файл лишається як довідник
+> по scope rules / demo script / backup strategies (вони актуальні), але ТАЙМІНГ — у PLAYBOOK.
+
+## Погодинний план (8h intensive — ЗАСТАРІЛИЙ ТАЙМІНГ)
 
 ```
 08:00  Session start — DON'T CODE YET

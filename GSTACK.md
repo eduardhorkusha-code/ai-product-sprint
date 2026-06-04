@@ -33,16 +33,16 @@
 
 ---
 
-## Sprint Flow (буткемп, 1 день)
+## Sprint Flow (буткемп, ⏱️ 4 ГОДИНИ — див. [PLAYBOOK.md](PLAYBOOK.md))
 
 ```
-/office-hours   → Product Brain: 6 forcing questions, MVP = 1 core feature
-  → /spec       → Product Brain: user story, cut list, demo script
-    → build     → Builder + AI Engineer (timebox строго, /investigate на блоках)
-      → /design-review → Design Eye: лови AI slop
-        → /qa   → QA Tester: Go/No-Go вердикт
-          → /document-release → Demo Director: pitch + Slack post
+15:00 /office-hours lite → Product Brain: 6 питань за 10хв, MVP = 1 фіча
+15:30 build              → Builder + AI Engineer (timebox строго, /investigate на блоках)
+17:30 /design-review     → Design Eye: топ-3 AI slop фікси
+18:00 /qa                → QA Tester: Go/No-Go
+18:30 /document-release  → Demo Director: 5-хв відео + Slack post
 ```
+⚠️ Під 4h скіли запускаються LITE — швидко, не повний цикл. Час > повнота процесу.
 
 ---
 
