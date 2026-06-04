@@ -27,66 +27,43 @@
 
 ---
 
-## 🌓 ТЕМНІ ПЛЯМИ — що ще треба знайти
+## ✅ ЗАКРИТІ ПЛЯМИ (2026-06-04)
 
-### 🔴 #1 — Voice → Text транскрипція (КРИТИЧНА)
-**Проблема:** AI Meeting Action Extractor (фіча #1 для перемоги) потребує перетворення
-голосу в текст. Маємо `expo-audio` для запису, але НЕ маємо як audio стає текстом.
+### ✅ #1 — Voice → Text транскрипція — ЗАКРИТО
+→ [code/voice-to-text.md](code/voice-to-text.md)
+2 шляхи: expo-speech-recognition (on-device, uk-UA, нуль backend, потребує dev build)
+АБО Whisper API (працює в Expo Go, потребує OPENAI key). Повний код обох + flow для
+Meeting Action Extractor. Українська працює в обох.
 
-**Питання без відповіді:**
-- Whisper API (OpenAI) чи AssemblyAI чи on-device?
-- Чи працює в Expo Go без dev build?
-- Скільки коштує / яка затримка?
-- Чи можна Claude напряму згодувати аудіо?
+### ✅ #3 — Charts код (Skia/Victory) — ЗАКРИТО
+→ [code/charts.md](code/charts.md)
+react-native-graph (line, 120fps wow), Victory Native XL (bar), svg progress ring
+(легкий, чистий Expo Go). Setup + повний код + коли що брати.
 
-**Промпт для ChatGPT/Perplexity:**
-```
-I need voice-to-text transcription in an Expo SDK 53 app (works in Expo Go, no dev build).
-Use case: record a 20-second voice note → transcribe → send text to Claude for action extraction.
-Compare: OpenAI Whisper API vs AssemblyAI vs expo-speech-recognition vs on-device.
-For each: setup code, cost, latency, Expo Go compatibility. Give complete working code
-for the fastest path: expo-audio record → transcribe → return text string.
-```
+### ✅ #4 — Notification faking — ЗАКРИТО
+→ [code/in-app-feedback.md](code/in-app-feedback.md)
+Toast/banner компонент (Reanimated, без бібліотек) + демо-трюк "нагадування по таймеру".
 
-### 🟡 #2 — Як аудиторія БАЧИТЬ застосунок під час демо
-**Проблема:** Social Proof Moment = аудиторія взаємодіє. Незрозуміла механіка показу.
+### ✅ #5 — Українська локалізація — ВИРІШЕНО (рішення, не ресерч)
+**Рішення:** hardcode український текст у демо. PDF радив hardcode мову пріоритетного
+ринку. i18n зайвий для 1-day demo. Тексти одразу українською.
 
-**Питання:**
-- Eduard демонструє свій екран (QuickTime/iPhone Mirroring) — аудиторія шле emoji в Slack? ✅ це є
-- Чи треба щоб аудиторія ВІДКРИЛА застосунок? Тоді Expo Go QR на багато пристроїв?
-- Який реальний flow голосування — відео в Slack чи live демо в залі?
+---
 
-**Дія:** уточнити формат буткемпу в #platform_ai (live pitch vs відео vs обидва).
+## 🌓 ЩО ЗАЛИШИЛОСЬ (не ресерч — зовнішнє/рішення на місці)
 
-### 🟡 #3 — Charts код (Skia / Victory Native)
-**Проблема:** React Native Graph (Skia) рекомендований як топ-візуалізація, але код є
-тільки для Highcharts 'use dom'. Немає готового Skia/Victory коду.
+### 🟡 #2 — Як аудиторія БАЧИТЬ застосунок (потребує тебе)
+**Не закривається ресерчем** — треба уточнити формат буткемпу в #platform_ai:
+- live pitch в залі vs відео в Slack vs обидва?
+- аудиторія шле emoji в Slack (✅ механіка є) чи відкриває апп сама?
 
-**Промпт:**
-```
-Give me complete, runnable code for 3 chart types in Expo SDK 53 using react-native-graph
-(Skia) and victory-native: (1) animated line chart for weekly progress, (2) bar chart for
-category breakdown, (3) progress ring. Each must work in Expo Go, TypeScript strict,
-with NativeWind styling. Include the exact install commands.
-```
+**Дія від Eduard:** спитати в #platform_ai формат демо/голосування.
+Якщо аудиторія відкриває апп → Expo Go QR на багато пристроїв (тоді треба dev share).
+Якщо тільки дивиться екран Eduard → iPhone Mirroring + Slack emoji (вже покрито).
 
-### 🟢 #4 — Notification faking pattern
-**Проблема:** Кажемо "fake push з in-app banner" але немає коду.
-
-**Дія:** простий — згенерувати in-app toast/banner компонент. Можна зробити локально без ресерчу.
-
-### 🟢 #5 — Українська локалізація
-**Проблема:** SKELAR корпоративна аудиторія. Чи має застосунок бути українською?
-Hardcode UK strings чи швидкий i18n?
-
-**Рішення (ймовірно):** hardcode український текст у corporate-демо (PDF радив hardcode
-мову пріоритетного ринку). Не потребує ресерчу — рішення продукту.
-
-### 🟢 #6 — Camera / Image picker (якщо продукт потребує фото)
-**Проблема:** Якщо ідея потребує фото (receipt scan, avatar) — немає патерну
-expo-image-picker / expo-camera.
-
-**Дія:** залежить від вибору продукту. Якщо обираємо щось з фото — швидкий промпт.
+### 🟢 #6 — Camera / Image picker — ВІДКЛАДЕНО (залежить від продукту)
+**Не плям, а умовність** — потрібно тільки якщо обрана ідея має фото (receipt, avatar).
+Рішення на /office-hours у день буткемпу. Якщо так — швидкий промпт (5 хв), expo-image-picker.
 
 ---
 
@@ -109,10 +86,11 @@ expo-image-picker / expo-camera.
 
 ## 📊 Підсумок
 
-- **Покрито:** 95% — вся стратегія, код, дизайн, AI
-- **Критична темна пляма:** Voice→Text транскрипція (#1) — запустити промпт
-- **Решта плям:** дрібні, вирішуються на місці або залежать від вибору продукту
-- **Головний ризик:** не ресерч, а SETUP — середовище ще не налаштоване
+- **Покрито:** ~100% ресерчу. #1, #3, #4 закриті кодом, #5 рішенням.
+- **Залишилось 2 пункти — НЕ ресерч:**
+  - #2 формат демо — питання до #platform_ai (дія Eduard)
+  - #6 camera — умовність, залежить від вибору продукту (рішення на /office-hours)
+- **Головний ризик:** SETUP — середовище ще не налаштоване (див. чекліст нижче)
 
-**Висновок:** ресерч-фаза майже завершена. Запустити 1 критичний промпт (voice→text),
-далі — SETUP, не пошук.
+**Висновок:** ресерч-фаза ЗАВЕРШЕНА. Залишилось: (1) спитати формат у #platform_ai,
+(2) SETUP. Більше шукати нічого — все є в research/.

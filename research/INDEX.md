@@ -69,7 +69,19 @@ Social Proof Moment technique, template comparison (toyamarodrigo=9.2 WINNER),
 AI Agents топ-1, React Native Graph (Skia), нові бібліотеки, стек для перемоги,  
 SDK 53 compatibility table, NativeWind 4.2.1 фіксі, viral demo patterns CEE
 
-### AI Features в Expo — готові патерни ⭐ НОВИЙ
+### Voice → Text транскрипція ⭐ НОВИЙ
+→ [`code/voice-to-text.md`](code/voice-to-text.md)  
+expo-speech-recognition (on-device, uk-UA) + Whisper API, повний код, flow для Meeting Extractor
+
+### Charts — Skia/Victory ⭐ НОВИЙ
+→ [`code/charts.md`](code/charts.md)  
+react-native-graph (120fps line), Victory Native (bar), svg progress ring, коли що брати
+
+### In-App Feedback (toast/banner) ⭐ НОВИЙ
+→ [`code/in-app-feedback.md`](code/in-app-feedback.md)  
+Toast компонент (Reanimated), демо-трюк "фейкове нагадування по таймеру"
+
+### AI Features в Expo — готові патерни
 → [`code/ai-features.md`](code/ai-features.md)  
 5 AI-патернів (Meeting Action Extractor #1), Claude direct call + Vercel AI SDK,  
 streaming code, corporate vote ranking — "AI that ACTS" wins over "AI that summarizes"
