@@ -24,6 +24,39 @@
 
 ## Лог
 
+### 2026-06-04 — Каталог-конструктор модулів + payment flow
+
+**Інсайт Eduard:** треба готові кастомні модулі як конструктор — обрав, зібрав єдиний продукт.
+
+- `starter/MODULES.md` — КАТАЛОГ: 13 модулів (M1-M13) з часом/депсами/лінками + 4 готові НАБОРИ
+  (A: subscription B2C, B: live team tool, C: AI productivity, мінімальний). Порядок збірки.
+- `research/code/payment-flow.md` — ⚠️ реальні IAP не працюють у Expo Go → демо МОК (Zustand isPro, ~10хв). Прод = RevenueCat (react-native-purchases-ui, dev build). web2app ~6%.
+- `research/code/auth-screens.md` — email/pw Supabase, ~20-30хв. Опційний (anonymous краще під 4h).
+- `research/code/app-essentials.md` — notifications(fake)/analytics(живить admin воронку)/profile/permission priming.
+
+**Ключове:** M1/M3/M8 = один патерн (score-ring+LineGraph). M2/M4 діляться paywall. Реюз
+робить "повний продукт" (funnel+payment+admin) дешевим. Конструктор → 4h стає "обрав і зібрав".
+
+---
+
+### 2026-06-04 — Admin dashboard + донавчання команди
+
+**Q1 (готовність команди):** структурно готова, АЛЕ агенти були засіяні ДО останнього ресерчу.
+Донавчив через experience logs (механізм навчання): Product Brain тепер ВЛАСНИК бізнес-моделі
+(funnel+admin+метрики), Builder знає готові скелети для реюзу, Demo Director — бізнес-мову
+для суддів, Design Eye — funnel/paywall/admin візуал.
+
+**Q2 (admin-панель):** ТАК, але lightweight mock (~20-30хв, один екран). Реюз нашого ж
+дашборду+charts. Сигналить суддям-будівникам "продукт з unit-економікою, не фіча".
+Будувати ТІЛЬКИ якщо core+funnel готові рано АБО тема=admin/ops. Не красти центр демо.
+
+- `research/code/admin-dashboard.md` — KPI (MRR/active/trial→paid/churn) + воронка + MRR-графік + 1 real live-число. Реалістичні mock-значення.
+- 4 experience logs донавчено (product-brain, builder, demo-director, design-eye)
+
+**Інсайт:** vote-дашборд + admin + funnel-result = ОДИН патерн (score-ring + LineGraph), три екрани. Реюз робить "повний продукт" дешевим.
+
+---
+
 ### 2026-06-04 — Onboarding funnel (SKELAR-бізнес диференціатор)
 
 **Інсайт Eduard:** SKELAR будує subscription B2C apps з воронками — судді впізнають "розуміє бізнес".

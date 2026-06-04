@@ -26,6 +26,7 @@ Social Proof Moment. Кандидат №1 — **Team Pulse** (realtime emoji, �
 
 | Файл | Що беру |
 |------|---------|
+| [../starter/MODULES.md](../starter/MODULES.md) | 🧱 КАТАЛОГ-КОНСТРУКТОР — обери модулі/набір під тему, збери як Lego |
 | [../starter/BACKUP-team-energy-pulse.md](../starter/BACKUP-team-energy-pulse.md) | 🎯 ГОТОВИЙ СКЕЛЕТ — якщо тема схожа, клацаєш copy-paste. БД розгорнута завтра |
 | [code/starter-templates.md](code/starter-templates.md) | Клон toyamarodrigo + NativeWind setup |
 | [../starter/STARTER.md](../starter/STARTER.md) | Supabase клієнт, schema SQL, app CLAUDE.md, metro fix |
@@ -54,6 +55,7 @@ Social Proof Moment. Кандидат №1 — **Team Pulse** (realtime emoji, �
 | [code/animations.md](code/animations.md) | 6 анімацій (Checkbox→Streak Fire), кожна <30хв |
 | [code/charts.md](code/charts.md) | react-native-graph / Victory / progress ring |
 | [code/onboarding-funnel.md](code/onboarding-funnel.md) | 🎯 воронка quiz→портрет→paywall (SKELAR-бізнес!) повний код, ~30-40хв |
+| [code/admin-dashboard.md](code/admin-dashboard.md) | 🎯 admin-панель: MRR/воронка/active (повний продукт), mock+1 real, ~20-30хв |
 | [code/in-app-feedback.md](code/in-app-feedback.md) | Toast/banner, фейкове нагадування |
 | [design/ui-patterns.md](design/ui-patterns.md) | Кольори, spacing, **AI slop checklist** |
 
