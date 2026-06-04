@@ -34,13 +34,23 @@ AsyncStorage helpers, типи, streak calculator, HabitGrid, FlashList, Zustand
 → [`strategy/claude-code-expo-setup.md`](strategy/claude-code-expo-setup.md)  
 CLAUDE.md шаблон для Expo, типові помилки моделі і як запобігти, паралельні агенти під час буткемпу
 
-### Інфраструктура Claude Code (від Gemini)
+### Інфраструктура Claude Code (від Gemini Round 1)
 → [`gemini-bootcamp-infrastructure.md`](gemini-bootcamp-infrastructure.md)  
 MCP setup, worktrees, memory systems, skills structure, competitor group map
 
-### Deep Research Round 2 промпт
-→ [`deep-research-next-prompt.md`](deep-research-next-prompt.md)  
-Готовий промпт для наступного раунду дослідження
+### Expo MVP глибокий аналіз (від Gemini Round 2) ⭐ НОВИЙ
+→ [`gemini-expo-mvp-deep.md`](gemini-expo-mvp-deep.md)  
+SecureStore auth (не AsyncStorage!), 'use dom' директива, детальна карта 8 помилок,  
+Callstack agent-skills, погодинний план Gemini, що різати
+
+### Промпти для інших AI
+→ [`prompts-for-other-ais.md`](prompts-for-other-ais.md)  
+ChatGPT #1 (Supabase schemas, errors, FlashList, Zustand), ChatGPT #2 (UX psychology),  
+Grok #3 (trends), Grok #4 (competitors), Perplexity #5 (library compatibility)
+
+### Deep Research Round 3 промпт ⭐ НОВИЙ
+→ [`gemini-round3-prompt.md`](gemini-round3-prompt.md)  
+Callstack agent-skills зміст, 'use dom' demo apps, що виграє корпоративні голосування, шаблони
 
 ---
 
