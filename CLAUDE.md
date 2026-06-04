@@ -28,14 +28,19 @@ Powered by [gstack](https://github.com/garrytan/gstack) — same toolkit used by
 
 **Cut > Debate.** When in doubt, remove the feature.
 
-## Team (3 agents + Eduard as Sprint Clock)
+## Team (6 agents + Eduard as Sprint Clock)
 
-| Agent | File | Role | Key skill |
-|-------|------|------|-----------|
-| **Product Brain** | [agents/product-brain.md](agents/product-brain.md) | PM + Research | `/office-hours`, `/spec` |
-| **Builder** | [agents/builder.md](agents/builder.md) | Dev (mobile-first) | `/autoplan`, `/investigate` |
-| **Design Eye** | [agents/design-eye.md](agents/design-eye.md) | UX/iOS design | `/ios-design-review`, `/design-review` |
-| **Eduard** | Sprint Clock | Tempo + decisions | `/autoplan` to cut scope |
+| Agent | Codename | File | Role | Key skill |
+|-------|----------|------|------|-----------|
+| **Product Brain** | Nick Fury | [agents/product-brain.md](agents/product-brain.md) | PM + Research | `/office-hours`, `/spec` |
+| **Builder** | Tony Stark | [agents/builder.md](agents/builder.md) | Dev (mobile-first) | `/autoplan`, `/investigate` |
+| **Design Eye** | Da Vinci | [agents/design-eye.md](agents/design-eye.md) | UX/iOS design | `/ios-design-review`, `/design-review` |
+| **AI Engineer** | Vision | [agents/ai-engineer.md](agents/ai-engineer.md) | AI features (Claude, voice→text, realtime) | `/investigate` |
+| **Demo Director** | Mysterio | [agents/demo-director.md](agents/demo-director.md) | Pitch + demo + vote conversion | `/document-release` |
+| **QA Tester** | Spider-Man | [agents/qa-tester.md](agents/qa-tester.md) | Demo doesn't crash | `/qa`, `/canary` |
+| **Eduard** | Sprint Clock | — | Tempo + decisions | `/autoplan` to cut scope |
+
+**Flow:** Product Brain (scope) → Builder + AI Engineer (build) → Design Eye (polish) → QA Tester (Go/No-Go) → Demo Director (pitch + vote)
 
 ## Sprint Flow
 

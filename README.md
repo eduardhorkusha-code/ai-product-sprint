@@ -1,43 +1,120 @@
 # ai-product-sprint
 
-Lightweight AI agent team for rapid product sprints, hackathons, and bootcamps.
+**SKELAR × Claude Bootcamp — "Creating Digital Product" (7 червня 2026)**
+Mentor: @Andrii Zadorozhnyi · Команда: Eduard + AI-агенти · Ціль: за 1 день побудувати mobile productivity app і виграти голосування в #platform_ai
 
-Powered by [gstack](https://github.com/garrytan/gstack) — the toolkit that makes a 1-person team ship like a 20-person team.
+> Цей репо — база знань і команда агентів для перемоги на буткемпі. Все зібрано заздалегідь, щоб у день X не витрачати час і токени на пошук.
 
-> A single person with AI can now build what used to take a team of twenty. The engineering barrier is gone. What remains is taste, judgment, and the willingness to do the complete thing. — gstack ETHOS
+---
 
-## Team
+## 🚀 Швидкий старт (нова сесія — читай це)
 
-| Agent | File | Role | Key skills |
-|-------|------|------|-----------|
-| Product Brain | [agents/product-brain.md](agents/product-brain.md) | PM + Research | `/office-hours`, `/spec` |
-| Builder | [agents/builder.md](agents/builder.md) | Dev (Expo/React Native) | `/autoplan`, `/investigate` |
-| Design Eye | [agents/design-eye.md](agents/design-eye.md) | UX/iOS design | `/ios-design-review`, `/design-review` |
+1. **[LOG.md](LOG.md)** — секція "ЗАРАЗ" показує де ми стоїмо просто зараз
+2. **[research/INDEX.md](research/INDEX.md)** — повний індекс бази знань з decision tree
+3. **[research/STATUS.md](research/STATUS.md)** — що покрито, темні плями, що ще шукати
 
-## Research
+На буткемпі: завдання → `research/INDEX.md` → вибрати продукт → `/office-hours` → `/spec` → build.
 
-| Topic | File |
-|-------|------|
-| Mobile Productivity Apps Landscape (2025-2026) | [research/productivity-apps.md](research/productivity-apps.md) |
+---
 
-## Sprint Flow
+## 🧠 База знань — карта
+
+### 🎯 Стратегія (ЧИТАТИ ПЕРШИМИ)
+| Файл | Що всередині |
+|------|-------------|
+| [winning-formula.md](research/strategy/winning-formula.md) | **НАЙВАЖЛИВІШИЙ.** Feature Vote Conversion, Social Proof Moment, 5-step перемога |
+| [bootcamp-day-plan.md](research/strategy/bootcamp-day-plan.md) | Погодинний план 8h, scope rules, demo script template |
+| [ux-demo-psychology.md](research/strategy/ux-demo-psychology.md) | Сторітелінг, "10× момент", demo скрипт 0:00–3:30 |
+| [hackathon-trends-2026.md](research/strategy/hackathon-trends-2026.md) | Що виграє 2026, нові бібліотеки, SDK 53 сумісність |
+| [claude-code-expo-setup.md](research/strategy/claude-code-expo-setup.md) | CLAUDE.md шаблон для Expo, типові помилки моделі |
+
+### 💻 Код (copy-paste ready)
+| Файл | Що всередині |
+|------|-------------|
+| [starter-templates.md](research/code/starter-templates.md) | toyamarodrigo шаблон (переможець), NativeWind setup |
+| [core-patterns.md](research/code/core-patterns.md) | AsyncStorage, Zustand, streak, FlashList, Haptics, Sharing |
+| [animations.md](research/code/animations.md) | 6 Reanimated анімацій (Checkbox→Streak Fire) |
+| [supabase-schemas.md](research/code/supabase-schemas.md) | SQL + 5 RLS-патернів + SecureStore + realtime |
+| [zustand-flashlist-complete.md](research/code/zustand-flashlist-complete.md) | Повний store з undo + FlashList + Top-10 Expo errors |
+| [ai-features.md](research/code/ai-features.md) | 5 AI-патернів, Claude API + Vercel AI SDK streaming |
+| [callstack-agent-skills.md](research/code/callstack-agent-skills.md) | 26 RN skills для Claude Code, 5 галюцинацій що запобігає |
+
+### 🎨 Дизайн
+| Файл | Що всередині |
+|------|-------------|
+| [ui-patterns.md](research/design/ui-patterns.md) | Кольори, spacing, AI slop checklist, компоненти |
+
+### 💡 Продукт
+| Файл | Що всередині |
+|------|-------------|
+| [ideas-catalog.md](research/products/ideas-catalog.md) | 10 ідей з wow-фактором, топ-3 з demo script |
+
+### 🔧 Інструменти та інфраструктура
+| Файл | Що всередині |
+|------|-------------|
+| [tools-ecosystem.md](research/tools-ecosystem.md) | Figma, v0, Expo Orbit, Supabase MCP, pre-bootcamp checklist |
+| [gemini-bootcamp-infrastructure.md](research/gemini-bootcamp-infrastructure.md) | Claude Code, MCP, worktrees, memory, карта груп-конкурентів |
+| [gemini-expo-mvp-deep.md](research/gemini-expo-mvp-deep.md) | SecureStore, 'use dom', карта 8 помилок Expo |
+
+### 📝 Промпти для ресерчу (резерв)
+| Файл | Для чого |
+|------|----------|
+| [prompts-for-other-ais.md](research/prompts-for-other-ais.md) | ChatGPT/Grok/Perplexity — закриті ✅ |
+| [prompts-ai-integration.md](research/prompts-ai-integration.md) | AI в Expo — закрито ✅ |
+| [gemini-round3-prompt.md](research/gemini-round3-prompt.md) | Callstack/templates — закрито ✅ |
+
+---
+
+## 🤖 AI-команда
+
+| Агент | Codename | Файл | Роль | Ключовий скіл |
+|-------|----------|------|------|--------------|
+| **Product Brain** | Nick Fury | [agents/product-brain.md](agents/product-brain.md) | PM + Research | `/office-hours`, `/spec` |
+| **Builder** | Tony Stark | [agents/builder.md](agents/builder.md) | Dev (mobile-first) | `/autoplan`, `/investigate` |
+| **Design Eye** | Da Vinci | [agents/design-eye.md](agents/design-eye.md) | UX/iOS дизайн | `/design-review` |
+| **AI Engineer** | Vision | [agents/ai-engineer.md](agents/ai-engineer.md) | AI-фічі (Claude, voice→text, realtime) | `/investigate` |
+| **Demo Director** | Mysterio | [agents/demo-director.md](agents/demo-director.md) | Pitch + демо + конверсія голосів | `/document-release` |
+| **QA Tester** | Spider-Man | [agents/qa-tester.md](agents/qa-tester.md) | Щоб не впало на демо | `/qa`, `/canary` |
+| **Eduard** | — | — | Sprint Clock + рішення | `/autoplan` щоб різати scope |
+
+**Flow:** Product Brain (scope) → Builder + AI Engineer (build) → Design Eye (polish) → QA Tester (Go/No-Go) → Demo Director (pitch + vote)
+
+---
+
+## ⚙️ Стек (зафіксовано)
 
 ```
-/office-hours → /spec → /autoplan → build → /design-review → /canary
+Expo SDK 53 + Expo Router v3 (typedRoutes)
+  + NativeWind v4.2.1  (НЕ 4.2.0 — зламана)
+  + Reanimated + Gesture Handler
+  + Zustand + AsyncStorage
+  + Supabase (auth через expo-secure-store, НЕ AsyncStorage!)
+  + Claude API / Vercel AI SDK (для AI-фічі)
+
+Шаблон: toyamarodrigo/expo-router-template (FREE MIT, 5хв setup)
 ```
 
-Every step is a gstack skill. No improvisation on process.
+---
 
-## Key Principles
+## 🏆 Winning Formula (TL;DR)
 
-**Boil the Lake.** AI makes completeness cheap — do the full feature, not 80%.
+```
+Instant value (секунди) + Live realtime + Social Proof Moment = WIN
+```
 
-**Search Before Building.** Check what exists before writing custom code.
+1. **Instant Onboarding** (vote power 9.8) — нуль setup screens, value одразу
+2. **Live Realtime** (9.2) — Supabase realtime, екран оновлюється під час демо
+3. **Social Proof Moment** — "Шліть emoji в #platform_ai, дивимось як екран оживає live"
+4. **AI that ACTS** — voice→action виграє над "AI that summarizes"
+5. **10× момент** у демо-відео — крупно, з контрастом, "+100% ефективності"
 
-**Demo > Perfect.** Working UI beats clean architecture every time.
+---
 
-## Origin
+## Принципи спринту (gstack ETHOS)
 
-Prepared for SKELAR × Claude Bootcamp — "Creating Digital Product" intensive (7 June 2026).
+- **Boil the Lake** — повна фіча, не 80%. З AI 20% коштує секунди.
+- **Search Before Building** — перевір що є, перш ніж писати з нуля.
+- **Demo > Perfect** — робочий UI б'є чисту архітектуру.
+- **Cut > Debate** — сумніваєшся → ріж фічу.
 
-Built on SKELAR reputation-dashboard experience: [reputation-dashboard](https://github.com/eduardhorkusha-code/reputation-dashboard).
+Походить з SKELAR reputation-dashboard досвіду: [reputation-dashboard](https://github.com/eduardhorkusha-code/reputation-dashboard).
