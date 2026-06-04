@@ -7,12 +7,29 @@
 ## 🟢 ЗАРАЗ — де ми стоїмо
 
 **Дата:** 2026-06-04  
-**Статус:** Research Round 1 збережено. Чекаємо Deep Research Round 2.  
-**Наступний крок:** Запустити промпт з `research/deep-research-next-prompt.md` → отримати результат → визначити продукт → `/office-hours`.
+**Статус:** База знань готова. 7 файлів з готовим кодом, ідеями, стратегією.  
+**Наступний крок:** Отримати завдання буткемпу → відкрити `research/INDEX.md` → вибрати продукт → `/office-hours`.  
+**Резерв:** можна ще запустити Deep Research Round 2 (`research/deep-research-next-prompt.md`) для поглибленого аналізу.
 
 ---
 
 ## Лог
+
+### 2026-06-04 — Повна база знань для буткемпу
+
+**Що зроблено:**
+- `research/INDEX.md` — головний вхід у базу, decision tree
+- `research/products/ideas-catalog.md` — 10 ідей, топ-3 з demo script
+- `research/code/starter-templates.md` — найкращі GitHub templates для клонування
+- `research/code/animations.md` — 6 Reanimated3 анімацій, copy-paste ready
+- `research/code/core-patterns.md` — AsyncStorage, Zustand, Supabase RT, типи, streak
+- `research/design/ui-patterns.md` — дизайн-система, AI slop checklist
+- `research/strategy/bootcamp-day-plan.md` — погодинний план 8h, scope rules, demo script
+- `research/strategy/claude-code-expo-setup.md` — CLAUDE.md для Expo, помилки моделі
+
+**Наступний крок:** отримати завдання → `research/INDEX.md` → старт
+
+---
 
 ### 2026-06-04 — Gemini research збережено + Round 2 промпт написано
 
