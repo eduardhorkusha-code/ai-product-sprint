@@ -43,6 +43,21 @@ MCP setup, worktrees, memory systems, skills structure, competitor group map
 SecureStore auth (не AsyncStorage!), 'use dom' директива, детальна карта 8 помилок,  
 Callstack agent-skills, погодинний план Gemini, що різати
 
+### Supabase: схеми, RLS, міграції ⭐ НОВИЙ
+→ [`code/supabase-schemas.md`](code/supabase-schemas.md)  
+SQL для habits/moods/wins, 5 RLS-патернів (owner/role/public/tenant/anon),  
+типові помилки RLS, ER-діаграма, flow sequence, Supabase JS reference
+
+### Zustand + FlashList + Reanimated — повний код ⭐ НОВИЙ
+→ [`code/zustand-flashlist-complete.md`](code/zustand-flashlist-complete.md)  
+Production Zustand store (persist+undo+optimistic), FlashList з анімаціями,  
+топ-10 помилок Expo, FlashList vs FlatList таблиця, Jest тести
+
+### Що виграє хакатони 2026 + тренди + сумісність ⭐ НОВИЙ
+→ [`strategy/hackathon-trends-2026.md`](strategy/hackathon-trends-2026.md)  
+AI Agents топ-1, React Native Graph (Skia), нові бібліотеки, стек для перемоги,  
+SDK 53 compatibility table, NativeWind 4.2.1 фіксі, viral demo patterns CEE
+
 ### Промпти для інших AI
 → [`prompts-for-other-ais.md`](prompts-for-other-ais.md)  
 ChatGPT #1 (Supabase schemas, errors, FlashList, Zustand), ChatGPT #2 (UX psychology),  
