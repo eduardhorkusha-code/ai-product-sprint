@@ -53,6 +53,17 @@ SQL для habits/moods/wins, 5 RLS-патернів (owner/role/public/tenant/a
 Production Zustand store (persist+undo+optimistic), FlashList з анімаціями,  
 топ-10 помилок Expo, FlashList vs FlatList таблиця, Jest тести
 
+### Callstack agent-skills — повний каталог ⭐ НОВИЙ
+→ [`code/callstack-agent-skills.md`](code/callstack-agent-skills.md)  
+26 files з описами, 5 галюцинацій що запобігає, установка в Claude Code,  
+які skills потрібні для буткемпу vs skip, expo/skills + devanshuDesai/agent-skills
+
+### Winning Formula — корпоративний хакатон ⭐ НАЙВАЖЛИВІШИЙ
+→ [`strategy/winning-formula.md`](strategy/winning-formula.md)  
+3 critical success factors, Feature Vote Conversion Power table (9.8→8.1),  
+Social Proof Moment technique, template comparison (toyamarodrigo=9.2 WINNER),  
+'use dom' build times (Highcharts=1.5h fastest), 5-step winning strategy
+
 ### Що виграє хакатони 2026 + тренди + сумісність ⭐ НОВИЙ
 → [`strategy/hackathon-trends-2026.md`](strategy/hackathon-trends-2026.md)  
 AI Agents топ-1, React Native Graph (Skia), нові бібліотеки, стек для перемоги,  
