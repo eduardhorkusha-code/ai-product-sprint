@@ -13,6 +13,7 @@
 | Файл | Коли відкрити |
 |------|--------------|
 | [products/ideas-catalog.md](products/ideas-catalog.md) | Вибрати продукт. **Під 4h дивись "4h-ready" мітку** |
+| [strategy/organizer-energy-thesis.md](strategy/organizer-energy-thesis.md) | 🎯 теза організатора "Енергія = NEW GOLD" — тюнінг продукту під неї |
 | [strategy/winning-formula.md](strategy/winning-formula.md) | Feature Vote Conversion, що будувати першим |
 
 **Рішення за замовчуванням під 4h:** найпростіший high-wow продукт з вбудованим

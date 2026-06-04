@@ -6,14 +6,20 @@
 
 ## 🎯 4h-READY — бери одне з цих (core ≤90хв)
 
+> 💡 **Тюнінг під організатора:** C-level організатор має тезу "Енергія менеджера = NEW GOLD"
+> (див. [strategy/organizer-energy-thesis.md](../strategy/organizer-energy-thesis.md)).
+> Топ-ідеї загострені під неї — без втрати широкої корисності.
+
 | Ранг | Ідея | Wow | Чому влазить у 4h | Social Proof Moment? |
 |------|------|-----|-------------------|----------------------|
-| 🥇 | **Team Pulse** — анонімний emoji mood | 9 | Без auth, 1 екран, realtime = весь wow. ~75хв core. | ✅ ВБУДОВАНИЙ (аудиторія шле emoji live) |
-| 🥈 | **Win Journal** — щоденник + share card | 9 | Text input + share screenshot. Без backend. ~60хв. | 🟡 share card вірусний |
+| 🥇 | **Team Energy Pulse** — менеджер бачить енергію команди live | 9 | Без auth, 1 екран, realtime = весь wow. ~75хв core. | ✅ ВБУДОВАНИЙ + резонує з тезою організатора |
+| 🥈 | **Energy Journal** — рефлексія енергії + AI-інсайт + share | 9 | Text + AI call + share. ~70хв. | 🟡 share card + рефлексія = його теза |
 | 🥉 | **Daily Win** — 3 задачі + confetti | 8 | CRUD + confetti при all-done. ~70хв. | 🟡 простота |
 
-**Default під 4h:** Team Pulse — Social Proof Moment вбудований, realtime = wow,
-анонімність (без auth економить годину), аудиторія голосує = аудиторія в продукті.
+**Default під 4h: Team Energy Pulse** — перетин 4 факторів:
+(1) Social Proof Moment вбудований, (2) realtime = wow, (3) без auth економить годину,
+(4) **резонує з тезою організатора** ("керівник = точка опори" + вимірювання енергії).
+Demo-рамка: "Енергія команди сьогодні" + Whoop-style score кільце.
 
 ⚠️ **НЕ під 4h** (потребують >90хв core): Habit Stack (streak grid), Meeting Digest
 (voice→text+AI), Sprint Board, Skill Pulse. Бери тільки якщо обрали свідомо і ріжемо решту.
