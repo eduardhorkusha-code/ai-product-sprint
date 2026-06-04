@@ -7,12 +7,32 @@
 ## 🟢 ЗАРАЗ — де ми стоїмо
 
 **Дата:** 2026-06-04  
-**Статус:** Репо клоновано локально. Підготовка до Bootcamp 7 червня.  
-**Наступний крок:** Визначити продукт для Bootcamp → `/office-hours` через Product Brain агент.
+**Статус:** Research Round 1 збережено. Чекаємо Deep Research Round 2.  
+**Наступний крок:** Запустити промпт з `research/deep-research-next-prompt.md` → отримати результат → визначити продукт → `/office-hours`.
 
 ---
 
 ## Лог
+
+### 2026-06-04 — Gemini research збережено + Round 2 промпт написано
+
+**Що зроблено:**
+- Gemini Deep Research (інфраструктура) скомпресовано та збережено в `research/gemini-bootcamp-infrastructure.md`
+- Написано промпт для Round 2 Deep Research (`research/deep-research-next-prompt.md`) — фокус: вибір продукту, Expo speed patterns, тайминг дня, Claude Code+Expo gotchas
+- Обидва файли запушено в репо
+
+**Стан репо після:**
+```
+research/
+  gemini-bootcamp-infrastructure.md  ✅ Claude Code setup, MCP, worktrees, skills, competitor groups
+  deep-research-next-prompt.md       ✅ готовий промпт для наступного раунду ресерчу
+```
+
+**Наступний крок:**
+- Скопіювати промпт з `research/deep-research-next-prompt.md` → запустити в Gemini/Perplexity Deep Research
+- Повернутися сюди з результатом → збережемо + визначимо продукт → `/office-hours`
+
+---
 
 ### 2026-06-04 — Ініціалізація
 
