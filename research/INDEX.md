@@ -44,6 +44,9 @@ Social Proof Moment. Кандидат №1 — **Team Pulse** (realtime emoji, �
 | [code/supabase-schemas.md](code/supabase-schemas.md) | SQL + RLS + realtime (Social Proof Moment) |
 | [code/ai-features.md](code/ai-features.md) | AI-фіча (Claude streaming), якщо обрали AI |
 | [code/voice-to-text.md](code/voice-to-text.md) | Voice→текст (on-device або Whisper) |
+| [code/payment-flow.md](code/payment-flow.md) | Paywall→підписка (демо мок ~10хв, прод RevenueCat) |
+| [code/auth-screens.md](code/auth-screens.md) | Реєстрація/вхід Supabase (опц — anonymous краще під 4h) |
+| [code/app-essentials.md](code/app-essentials.md) | Notifications/analytics/profile/permission priming |
 
 ---
 

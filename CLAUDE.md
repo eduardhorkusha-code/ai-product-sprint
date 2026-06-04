@@ -42,25 +42,20 @@ Powered by [gstack](https://github.com/garrytan/gstack) — same toolkit used by
 
 **Flow:** Product Brain (scope) → Builder + AI Engineer (build) → Design Eye (polish) → QA Tester (Go/No-Go) → Demo Director (pitch + vote)
 
-## Sprint Flow
+## Sprint Flow — ⏱️ 4 ГОДИНИ (6 червня, 15:00–19:00)
 
-### Full day (8h)
+**Головний документ дня: [PLAYBOOK.md](PLAYBOOK.md)** — хвилинний план + мій воркфлоу.
+
 ```
-Hour 1: Product Brain — /office-hours → /spec (scope, user story, MVP cut)
-Hour 2: Builder — skeleton + navigation (Expo + Supabase)
-Hour 3-5: Builder — core features (timebox strictly; /investigate on blocks)
-Hour 6: Design Eye — /design-review pass (catch AI slop)
-Hour 7: Builder — polish + fixes from /design-review
-Hour 8: Demo prep + /canary
+15:00 DECIDE   (30хв) Product Brain — /office-hours lite → MVP = 1 фіча + Social Proof
+15:30 SCAFFOLD (30хв) clone toyamarodrigo + STARTER.md → Expo Go запущено, БД готова
+16:00 BUILD    (90хв) Builder + AI Engineer — core end-to-end (/investigate на блоках)
+17:30 POLISH   (30хв) Design Eye — /design-review (топ-3 AI slop) + анімації
+18:00 QA       (30хв) QA Tester — Go/No-Go, фікс крашів, backup відео
+18:30 PITCH    (30хв) Demo Director — 5-хв відео + Slack post + Social Proof Moment
 ```
 
-### One-day intensive (4h, workshop format)
-```
-30 min: Product Brain — /office-hours → MVP = 1 core feature only
-90 min: Builder — build that one feature end-to-end
-30 min: Design Eye — /design-review → iOS HIG check
-30 min: Polish + demo
-```
+Конструктор модулів під будь-яку тему: [starter/MODULES.md](starter/MODULES.md).
 
 ## Skill Routing — MANDATORY
 

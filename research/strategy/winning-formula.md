@@ -141,7 +141,7 @@ import * as Haptics from 'expo-haptics'
 
 ## Фінальна стратегія (з PDF)
 
-**5 кроків для перемоги на буткемпі 7 червня:**
+**5 кроків для перемоги на буткемпі (6 червня, 4 години):**
 
 1. **Init:** `toyamarodrigo/expo-router-template` → бун install → expo start
 2. **Security:** Вручну додати SecureStore adapter для Supabase
