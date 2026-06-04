@@ -24,6 +24,20 @@
 
 ## Лог
 
+### 2026-06-04 — Onboarding funnel (SKELAR-бізнес диференціатор)
+
+**Інсайт Eduard:** SKELAR будує subscription B2C apps з воронками — судді впізнають "розуміє бізнес".
+
+**Що:** дослідив як роблять найкращі (Headway 40M, Noom 113 екранів, Duolingo goal-first, Cal AI). 7 принципів: goal-first, micro-commitments, персоналізація=цінність, "building your plan" момент, прогноз-графік (10× момент), соц-пруф, soft paywall після value.
+
+- `research/code/onboarding-funnel.md` — анатомія + психологія + ПОВНИЙ код під нас:
+  quiz store, QuizStep (прогрес+опції), BuildingProfile (Noom-момент), Result (прогноз-графік), Paywall (anchor+trial, без реальної оплати → RevenueCat для prod)
+- Енергетична рамка (під тезу організатора), але QUESTIONS swappable під будь-який продукт
+- ~30-40хв білду: ОПЦІЙНИЙ add якщо core готовий рано, АБО центр якщо тема=портрет/підписка
+- Бенчмарк для пітчу: web2app paywall ~6% (3× App Store)
+
+---
+
 ### 2026-06-04 — Бекап-скелет Team Energy Pulse (розгортаємо завтра)
 
 **Що:** повний готовий скелет найімовірнішого продукту — щоб не витратити ні хвилини в суботу.

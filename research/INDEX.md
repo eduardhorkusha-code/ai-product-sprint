@@ -53,6 +53,7 @@ Social Proof Moment. Кандидат №1 — **Team Pulse** (realtime emoji, �
 |------|----------|
 | [code/animations.md](code/animations.md) | 6 анімацій (Checkbox→Streak Fire), кожна <30хв |
 | [code/charts.md](code/charts.md) | react-native-graph / Victory / progress ring |
+| [code/onboarding-funnel.md](code/onboarding-funnel.md) | 🎯 воронка quiz→портрет→paywall (SKELAR-бізнес!) повний код, ~30-40хв |
 | [code/in-app-feedback.md](code/in-app-feedback.md) | Toast/banner, фейкове нагадування |
 | [design/ui-patterns.md](design/ui-patterns.md) | Кольори, spacing, **AI slop checklist** |
 
