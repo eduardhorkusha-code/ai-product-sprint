@@ -6,14 +6,34 @@
 
 ## 🟢 ЗАРАЗ — де ми стоїмо
 
-**Дата:** 2026-06-04  
-**Статус:** База знань готова. 7 файлів з готовим кодом, ідеями, стратегією.  
-**Наступний крок:** Отримати завдання буткемпу → відкрити `research/INDEX.md` → вибрати продукт → `/office-hours`.  
-**Резерв:** можна ще запустити Deep Research Round 2 (`research/deep-research-next-prompt.md`) для поглибленого аналізу.
+**Дата:** 2026-06-04 (буткемп 7 червня — 3 дні)  
+**Статус:** База знань ПОВНА. 15+ research файлів. Всі промпти закриті (ChatGPT #1+#2, Grok, Perplexity, AI integration).  
+**Наступний крок — SETUP (не ресерч):**
+- [ ] Expo Go на iPhone + Expo Orbit на Mac
+- [ ] Клонувати toyamarodrigo/expo-router-template, перевірити запуск
+- [ ] Supabase проект (URL + ANON KEY)
+- [ ] Callstack agent-skills в .claude/
+- [ ] Протестувати SecureStore supabase.ts
+- [ ] Figma: 3 UI kits в Drafts (вже зроблено)
+
+**На буткемпі:** завдання → `research/INDEX.md` → вибрати продукт → `/office-hours`.
 
 ---
 
 ## Лог
+
+### 2026-06-04 — AI features + UX психологія (фінальні промпти)
+
+**Що зроблено:**
+- `research/code/ai-features.md` — 5 AI-патернів, Meeting Action Extractor #1, Claude direct call + Vercel AI SDK streaming
+- `research/strategy/ux-demo-psychology.md` — ChatGPT #2: сторітелінг, CTA, "10× момент", demo скрипт з таймінгом
+- Закрито ВСІ заплановані промпти
+
+**Ключовий інсайт:** "AI that ACTS" (voice→action) виграє над "AI that summarizes". 10× момент = Social Proof Moment.
+
+**Наступний крок:** SETUP перед буткемпом (див. секцію ЗАРАЗ)
+
+---
 
 ### 2026-06-04 — Повна база знань для буткемпу
 

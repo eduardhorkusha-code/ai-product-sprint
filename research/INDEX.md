@@ -69,6 +69,16 @@ Social Proof Moment technique, template comparison (toyamarodrigo=9.2 WINNER),
 AI Agents топ-1, React Native Graph (Skia), нові бібліотеки, стек для перемоги,  
 SDK 53 compatibility table, NativeWind 4.2.1 фіксі, viral demo patterns CEE
 
+### AI Features в Expo — готові патерни ⭐ НОВИЙ
+→ [`code/ai-features.md`](code/ai-features.md)  
+5 AI-патернів (Meeting Action Extractor #1), Claude direct call + Vercel AI SDK,  
+streaming code, corporate vote ranking — "AI that ACTS" wins over "AI that summarizes"
+
+### UX-психологія + наука демо-відео ⭐ НОВИЙ (ChatGPT #2)
+→ [`strategy/ux-demo-psychology.md`](strategy/ux-demo-psychology.md)  
+Сторітелінг структура, CTA правила, "10× момент", demo чекліст,  
+скрипт з таймінгом 0:00-3:30, метрики успішності
+
 ### Промпти для інших AI
 → [`prompts-for-other-ais.md`](prompts-for-other-ais.md)  
 ChatGPT #1 (Supabase schemas, errors, FlashList, Zustand), ChatGPT #2 (UX psychology),  
