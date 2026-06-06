@@ -7,8 +7,20 @@ Powered by [gstack](https://github.com/garrytan/gstack) — same toolkit used by
 ## Stack (flexible per sprint)
 - React Native / Expo — mobile cross-platform
 - Next.js mobile-first — web fallback
-- Supabase — auth + database (default, no infra overhead)
+- Supabase — auth + database + Edge Functions (Claude proxy)
+- **Claude API (`claude-opus-4-8`)** — AI features in the product itself
 - Expo Go / Vercel — instant deploy
+
+## Claude API in Product
+The product **calls Claude programmatically** via Supabase Edge Function.
+API key stays server-side — Edge Function proxies requests.
+Model: `claude-opus-4-8` (default), adaptive thinking for complex features.
+
+Key patterns:
+- Natural language → structured data (task parsing)
+- Summarization (daily digest, weekly review)
+- Smart categorization (auto-tag, auto-group)
+- Contextual suggestions (what to do next)
 
 ## Sprint Principles (from gstack ETHOS)
 
